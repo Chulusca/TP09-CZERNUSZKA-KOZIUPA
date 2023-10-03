@@ -54,6 +54,6 @@ public class AccountController : Controller
     }
     public IActionResult Bienvenida(Usuario user){
         ViewBag.Usuario = user;
-        return View("Bienvenida")
+        return View("Bienvenida");
     }
 }
