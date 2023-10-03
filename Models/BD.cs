@@ -13,7 +13,7 @@ public static class BD{
     public static List<Usuario> ObtenerUsuarios(){
         List<Usuario> listaUsuarios = null;
         using(SqlConnection BD = new SqlConnection(_connectionString)){
-            string sql = "SELECT * FROM Usuario"
+            string sql = "SELECT * FROM Usuario";
             listaUsuarios = BD.Query<Usuario>(sql).ToList();
         }
         return listaUsuarios;
@@ -21,7 +21,7 @@ public static class BD{
     public static void AgregarUsuario(Usuario user){
         using(SqlConnection BD = new SqlConnection(_connectionString)){
             string sql = "INSERT INTO Usuario(Username, Contraseña, Nombre, Telefono, Email) VALUES (@Username, @Contraseña, @Nombre, @Telefono, @Email)";
-            BD.Execute(sql, new {Username = user.ObtenerUsuario(), Contraseña = ObtenerContrasena(), Nombre = ObtenerNombre(), Telefono = ObtenerNumero(), Email = ObtenerEmail()})
+            BD.Execute(sql, new {Username = user.Username, Contraseña = user.Password, Nombre = user.Name, Telefono = user.Number, Email = user.Email});
         }
     }
 
