@@ -1,0 +1,8 @@
+Z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA\obj\Debug\net7.0\TP-09-CZERNUSZKA-KOZIUPA.csproj.AssemblyReference.cache
+Z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA\obj\Debug\net7.0\TP-09-CZERNUSZKA-KOZIUPA.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA\obj\Debug\net7.0\TP-09-CZERNUSZKA-KOZIUPA.AssemblyInfoInputs.cache
+Z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA\obj\Debug\net7.0\TP-09-CZERNUSZKA-KOZIUPA.AssemblyInfo.cs
+Z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA\obj\Debug\net7.0\TP-09-CZERNUSZKA-KOZIUPA.csproj.CoreCompileInputs.cache
+Z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA\obj\Debug\net7.0\TP-09-CZERNUSZKA-KOZIUPA.MvcApplicationPartsAssemblyInfo.cache
+Z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA\obj\Debug\net7.0\TP-09-CZERNUSZKA-KOZIUPA.RazorAssemblyInfo.cache
+Z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA\obj\Debug\net7.0\TP-09-CZERNUSZKA-KOZIUPA.RazorAssemblyInfo.cs
