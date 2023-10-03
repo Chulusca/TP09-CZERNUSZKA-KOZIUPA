@@ -1,11 +1,12 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+PyjzSjNsrDfy3pb+rWf5f5N+Jw9lO2gy3pPm+Uw5ZCCJNf" crossorigin="anonymous">
 
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
-             <div class="card">
+            <div class="card">
                 <div class="card-header">Iniciar sesión</div>
                 <div class="card-body">
                     <form method="post">
@@ -14,11 +15,11 @@
                             <input type="text" id="username" name="username" class="form-control" required />
                         </div>
                         <div class="mb-3">
-                            <label for="password" class="form-label">Contraseña:</label>
+                             <label for="password" class="form-label">Contraseña:</label>
                             <input type="password" id="password" name="password" class="form-control" required />
                         </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                         <div class="text-center">
+                             <button type="submit" class="btn btn-primary">Iniciar sesión</button>
                         </div>
                     </form>
                 </div>
@@ -28,4 +29,20 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script>
+
+function validateForm() {
+    
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if (username === "usuario" && password === "contraseña") {
+        alert("Inicio de sesión exitoso."); // Puedes cambiar esto por una redirección real
+        return true; // Envía el formulario al servidor
+    } else {
+        alert("Nombre de usuario o contraseña incorrectos.");
+        return false; // Evita que el formulario se envíe
+    }
+}
+
+</script>
 
