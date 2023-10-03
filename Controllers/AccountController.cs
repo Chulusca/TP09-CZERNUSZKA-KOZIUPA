@@ -10,7 +10,7 @@ public class AccountController : Controller
     public IActionResult Login(string targetUsername, string password){
         List<Usuario> listaUsuarios = BD.ObtenerUsuarios(); //obtener usuarios
         
-        matchingUser = listaUsuarios.FirstOrDefault(u => u.Username == targetUsername);
+        Usuario matchingUser = listaUsuarios.FirstOrDefault(u => u.Username == targetUsername);
 
         if (matchingUser != null) //verificacion de usuario existente en la BD
         {
@@ -35,7 +35,7 @@ public class AccountController : Controller
 
     public IActionResult ForgotPassword(string email, string name){
         List<Usuario> listaUsuarios = BD.ObtenerUsuarios(); //obtener usuarios
-        matchingUser = listaUsuarios.FirstOrDefault(u => u.Email == email);
+        Usuario matchingUser = listaUsuarios.FirstOrDefault(u => u.Email == email);
 
         if (matchingUser != null) //verificacion de usuario existente en la BD
         {
@@ -53,6 +53,7 @@ public class AccountController : Controller
         return View("Index");
     }
     public IActionResult Bienvenida(Usuario user){
-
+        ViewBag.Usuario = user;
+        return View("Bienvenida")
     }
 }
