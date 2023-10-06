@@ -21,7 +21,7 @@ public static class BD{
     public static void AgregarUsuario(Usuario user){
         using(SqlConnection BD = new SqlConnection(_connectionString)){
             string sql = "INSERT INTO Usuario(Username, Contraseña, Nombre, Telefono, Email) VALUES (@Username, @Contraseña, @Nombre, @Telefono, @Email)";
-            BD.Execute(sql, new {Username = user.Username, Contraseña = user.Password, Nombre = user.Name, Telefono = user.Number, Email = user.Email});
+            BD.Execute(sql, new {Username = user.Username, Contraseña = user.Contrasena, Nombre = user.Nombre, Telefono = user.Telefono, Email = user.Email});
         }
     }
 

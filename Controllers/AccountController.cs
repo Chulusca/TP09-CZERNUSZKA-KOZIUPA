@@ -14,7 +14,7 @@ public class AccountController : Controller
 
         if (matchingUser != null) //verificacion de usuario existente en la BD
         {
-            if(matchingUser.Password == password)//verificar la contraseña
+            if(matchingUser.Contrasena== password)//verificar la contraseña
             {
                 return RedirectToAction("Bienvenida", new {user = matchingUser});
             }
@@ -25,7 +25,7 @@ public class AccountController : Controller
         else{
             ViewBag.MsjError = "Usuario inexistente";
         }
-        return View("Index");
+        return View("Login");
     }
     public IActionResult Register(string user, string pass, string name, int number, string email){
         Usuario USER = new Usuario(user, pass, name, number, email);
@@ -39,9 +39,9 @@ public class AccountController : Controller
 
         if (matchingUser != null) //verificacion de usuario existente en la BD
         {
-            if(matchingUser.Name == name)//verificar el nombre
+            if(matchingUser.Nombre == name)//verificar el nombre
             {
-                ViewBag.Contraseña = matchingUser.Password;
+                ViewBag.Contraseña = matchingUser.Contrasena;
             }
             else{
                 ViewBag.MsjError = "Nombre Incorrecto";
@@ -57,3 +57,4 @@ public class AccountController : Controller
         return View("Bienvenida");
     }
 }
+
