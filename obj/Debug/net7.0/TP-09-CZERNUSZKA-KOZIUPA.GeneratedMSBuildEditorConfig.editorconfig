@@ -9,80 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP_09_CZERNUSZKA_KOZIUPA
 build_property.RootNamespace = TP_09_CZERNUSZKA_KOZIUPA
-<<<<<<< HEAD
-build_property.ProjectDir = z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA\
+build_property.ProjectDir = c:\Users\czern\Desktop\Programacion\TP09-CZERNUSZKA-KOZIUPA\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = z:\Programacion_4to\TP09-CZERNUSZKA-KOZIUPA
+build_property.MSBuildProjectDirectory = c:\Users\czern\Desktop\Programacion\TP09-CZERNUSZKA-KOZIUPA
 build_property._RazorSourceGeneratorDebug = 
 
-[z:/Programacion_4to/TP09-CZERNUSZKA-KOZIUPA/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/Account/Bienvenida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxCaWVudmVuaWRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/Programacion_4to/TP09-CZERNUSZKA-KOZIUPA/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion_4to/TP09-CZERNUSZKA-KOZIUPA/Views/Home/Registro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Ryby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion_4to/TP09-CZERNUSZKA-KOZIUPA/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion_4to/TP09-CZERNUSZKA-KOZIUPA/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion_4to/TP09-CZERNUSZKA-KOZIUPA/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion_4to/TP09-CZERNUSZKA-KOZIUPA/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion_4to/TP09-CZERNUSZKA-KOZIUPA/Views/Shared/_Layout.cshtml]
-=======
-build_property.ProjectDir = Z:\Programacion_4to\TP-09-CZERNUSZKA-KOZIUPA\
-build_property.RazorLangVersion = 7.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = Z:\Programacion_4to\TP-09-CZERNUSZKA-KOZIUPA
-build_property._RazorSourceGeneratorDebug = 
-
-[Z:/Programacion_4to/TP-09-CZERNUSZKA-KOZIUPA/Views/Account/Login.cshtml]
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Programacion_4to/TP-09-CZERNUSZKA-KOZIUPA/Views/Home/Index.cshtml]
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/Account/Registro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Programacion_4to/TP-09-CZERNUSZKA-KOZIUPA/Views/Home/Privacy.cshtml]
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Programacion_4to/TP-09-CZERNUSZKA-KOZIUPA/Views/Shared/Error.cshtml]
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/Home/Registro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Programacion_4to/TP-09-CZERNUSZKA-KOZIUPA/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Programacion_4to/TP-09-CZERNUSZKA-KOZIUPA/Views/_ViewImports.cshtml]
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Programacion_4to/TP-09-CZERNUSZKA-KOZIUPA/Views/_ViewStart.cshtml]
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Programacion_4to/TP-09-CZERNUSZKA-KOZIUPA/Views/Shared/_Layout.cshtml]
->>>>>>> d23b149d4eadbb0290e5543dda77a084e4a0e57f
+[c:/Users/czern/Desktop/Programacion/TP09-CZERNUSZKA-KOZIUPA/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zhboksgwu7

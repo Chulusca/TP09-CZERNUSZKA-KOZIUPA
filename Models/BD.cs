@@ -24,5 +24,10 @@ public static class BD{
             BD.Execute(sql, new {Username = user.Username, Contraseña = user.Contrasena, Nombre = user.Nombre, Telefono = user.Telefono, Email = user.Email});
         }
     }
-
+    public static void CambiarContraseña(string Username, string nuevaContrasena){
+            using (SqlConnection db = new SqlConnection(ConnectionString)){
+                string sql = "UPDATE Usuario SET contrasena = @nueva WHERE username = @user";
+                db.Execute(sql, new {nueva = nuevaContrasena, user = Username});
+            }
+        }
 }
